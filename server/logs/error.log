@@ -1,0 +1,52 @@
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-14 11:25:41"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-14 11:26:45"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-15 14:54:03"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-15 15:06:10"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:00:03"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:02:29"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:02:49"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:05:50"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:08:16"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:09:56"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:27:09"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:27:10"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:27:12"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:29:06"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:32:06"}
+{"level":"error","message":"User already exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:32:10"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:34:26"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:34:29"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 01:34:54"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:36:28"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:36:29"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:36:30"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:36:30"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:36:33"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:38:34"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-16 01:38:37"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 11:56:20"}
+{"level":"error","message":"Invalid credentials","service":"ChatBot-Api","timestamp":"2026-02-16 23:03:57"}
+{"level":"error","message":"User doesn't exists","service":"ChatBot-Api","timestamp":"2026-02-22 10:31:47"}
+{"level":"error","message":"Expected ',' or '}' after property value in JSON at position 27 (line 3 column 5)","service":"ChatBot-Api","timestamp":"2026-02-22 16:35:57"}
+{"level":"error","message":"fetch failed","service":"ChatBot-Api","timestamp":"2026-02-22 16:37:00"}
+{"level":"error","message":"AI response generation failed","service":"ChatBot-Api","timestamp":"2026-02-22 21:57:55"}
+{"level":"error","message":"Chat with id cf2656c0-dade-4683-84c6-1d651aef51ff is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:21:08"}
+{"level":"error","message":"Chat with id cf2656c0-dade-4683-84c6-1d651aef51ff is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:21:08"}
+{"level":"error","message":"Chat with id cf2656c0-dade-4683-84c6-1d651aef51ff is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:21:30"}
+{"level":"error","message":"Chat with id 72822f23-6b9b-4ef0-8ba2-be90224fc399 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:21:57"}
+{"level":"error","message":"Chat with id 72822f23-6b9b-4ef0-8ba2-be90224fc399 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:21:57"}
+{"level":"error","message":"\nInvalid `prisma.chatSession.delete()` invocation in\nD:\\Projects\\ChatBot_Ai\\server\\src\\modules\\chats\\dao.ts:21:37\n\n  18   return prisma.chatSession.findUnique({ where: { id: chatSessionId } });\n  19 },\n  20 async deleteChat(chatSessionId: string) {\n→ 21   return prisma.chatSession.delete(\nAn operation failed because it depends on one or more records that were required but not found. No record was found for a delete.","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:01"}
+{"level":"error","message":"Chat with id 72822f23-6b9b-4ef0-8ba2-be90224fc399 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:43"}
+{"level":"error","message":"Chat with id 7dc42fd7-a262-4da1-81d0-9af5915b42e4 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:50"}
+{"level":"error","message":"Chat with id 7dc42fd7-a262-4da1-81d0-9af5915b42e4 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:50"}
+{"level":"error","message":"\nInvalid `prisma.chatSession.delete()` invocation in\nD:\\Projects\\ChatBot_Ai\\server\\src\\modules\\chats\\dao.ts:21:37\n\n  18   return prisma.chatSession.findUnique({ where: { id: chatSessionId } });\n  19 },\n  20 async deleteChat(chatSessionId: string) {\n→ 21   return prisma.chatSession.delete(\nAn operation failed because it depends on one or more records that were required but not found. No record was found for a delete.","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:53"}
+{"level":"error","message":"Chat with id 6d8231af-d017-4f57-bcb3-53029ac2a599 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:56"}
+{"level":"error","message":"Chat with id 6d8231af-d017-4f57-bcb3-53029ac2a599 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:56"}
+{"level":"error","message":"Chat with id 6d8231af-d017-4f57-bcb3-53029ac2a599 is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:22:59"}
+{"level":"error","message":"Chat with id 8ab90b17-ec2c-4a9b-8b57-b48a733126ca is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:23:05"}
+{"level":"error","message":"Chat with id 8ab90b17-ec2c-4a9b-8b57-b48a733126ca is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:23:05"}
+{"level":"error","message":"Chat with id 45d6f4c4-9b44-4ad9-92a5-f3854975baea is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:23:40"}
+{"level":"error","message":"Chat with id 45d6f4c4-9b44-4ad9-92a5-f3854975baea is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:23:40"}
+{"level":"error","message":"Chat with id d7ce96be-297e-44a8-a214-c7474719fc8c is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:23:51"}
+{"level":"error","message":"Chat with id d7ce96be-297e-44a8-a214-c7474719fc8c is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:23:51"}
+{"level":"error","message":"Chat with id d7ce96be-297e-44a8-a214-c7474719fc8c is not found","service":"ChatBot-Api","timestamp":"2026-02-26 10:23:55"}
