@@ -15,7 +15,7 @@ export default function Login() {
     e.preventDefault();
     try {
       await login({ email, password });
-
+      await new Promise((resolve) => requestAnimationFrame(resolve));
       router.replace("/dashboard/newchats");
     } catch (err: string | any) {
       setError(

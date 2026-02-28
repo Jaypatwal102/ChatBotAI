@@ -18,7 +18,7 @@ export default function Signup() {
 
     try {
       await signup({ name, email, password });
-
+      await new Promise((resolve) => requestAnimationFrame(resolve));
       router.replace("/dashboard/newchats");
     } catch (err: string | any) {
       setError(

@@ -47,7 +47,7 @@ export function AppSidebar() {
     setSelectedChatId(chatId);
   };
   const handleLogout = async () => {
-    apiClient<LogoutSuccessResponse>("/logout", {
+    await apiClient<LogoutSuccessResponse>("/logout", {
       method: "POST",
       credentials: "include",
     });
