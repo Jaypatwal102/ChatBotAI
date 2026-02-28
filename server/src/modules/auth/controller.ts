@@ -10,8 +10,8 @@ export const AuthController = {
       const { token } = result;
       res.cookie("token", token, {
         httpOnly: true,
+        secure: true,
         sameSite: "none",
-        path: "/",
         maxAge: 24 * 60 * 60 * 1000,
       });
       res.status(200).json({
@@ -29,9 +29,8 @@ export const AuthController = {
       const { token } = result;
       res.cookie("token", token, {
         httpOnly: true,
-        secure: process.env.NODE_ENV === "production",
+        secure: true,
         sameSite: "none",
-        path: "/",
         maxAge: 24 * 60 * 60 * 1000,
       });
       res.status(200).json({

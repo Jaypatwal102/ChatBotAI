@@ -16128,3 +16128,16 @@
 {"level":"info","message":"CHAT_FETCH_SUCCESS userId=22024449-ea10-42e5-b44d-49c9ca7a9639 count=2","service":"ChatBot-Api","timestamp":"2026-02-28 18:51:47"}
 {"level":"info","message":"MESSAGES_FETCH_SUCCESS userId=22024449-ea10-42e5-b44d-49c9ca7a9639 chatSessionId=7ff0444a-1797-4158-bee7-fe9ac0089b87 count=4","service":"ChatBot-Api","timestamp":"2026-02-28 18:52:00"}
 {"level":"info","message":"MESSAGES_FETCH_SUCCESS userId=22024449-ea10-42e5-b44d-49c9ca7a9639 chatSessionId=7ff0444a-1797-4158-bee7-fe9ac0089b87 count=4","service":"ChatBot-Api","timestamp":"2026-02-28 18:52:00"}
+{"level":"info","message":"AUTH_LOGIN_START","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:27"}
+{"level":"info","message":"AUTH_LOGIN_SUCCESS","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:27"}
+{"level":"warn","message":"AUTH_MISSING_TOKEN","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:28"}
+{"level":"warn","message":"AUTH_MISSING_TOKEN","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:28"}
+{"level":"info","message":"AUTH_LOGIN_START","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:47"}
+{"level":"info","message":"AUTH_LOGIN_SUCCESS","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:47"}
+{"level":"warn","message":"AUTH_MISSING_TOKEN","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:47"}
+{"level":"warn","message":"AUTH_MISSING_TOKEN","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:47"}
+{"level":"warn","message":"AUTH_MISSING_TOKEN","service":"ChatBot-Api","timestamp":"2026-02-28 18:56:54"}
+{"level":"info","message":"AUTH_LOGIN_START","service":"ChatBot-Api","timestamp":"2026-02-28 18:57:34"}
+{"level":"info","message":"AUTH_LOGIN_SUCCESS","service":"ChatBot-Api","timestamp":"2026-02-28 18:57:34"}
+{"level":"warn","message":"AUTH_MISSING_TOKEN","service":"ChatBot-Api","timestamp":"2026-02-28 18:57:34"}
+{"level":"warn","message":"AUTH_MISSING_TOKEN","service":"ChatBot-Api","timestamp":"2026-02-28 18:57:34"}

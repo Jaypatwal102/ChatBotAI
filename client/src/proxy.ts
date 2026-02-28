@@ -14,13 +14,13 @@ export function proxy(request: NextRequest) {
 
   const isAuthRoute = publicAuthRoutes.includes(pathname);
 
-  // if (isProtectedRoute && !token) {
-  //   return NextResponse.redirect(new URL("/login", request.url));
-  // }
+  if (isProtectedRoute && !token) {
+    return NextResponse.redirect(new URL("/login", request.url));
+  }
 
-  // if (isAuthRoute && token) {
-  //   return NextResponse.redirect(new URL("/dashboard/newchats", request.url));
-  // }
+  if (isAuthRoute && token) {
+    return NextResponse.redirect(new URL("/dashboard/newchats", request.url));
+  }
 
   return NextResponse.next();
 }

@@ -6,10 +6,11 @@ import { errorMiddleware } from "./middlewares/error.middlewares";
 import cookieParser from "cookie-parser";
 import { log } from "node:console";
 const allowedOrigins = [
-  "http://localhost:3000", // Next.js local (IMPORTANT: not 5000)
+  "http://localhost:3000",
   "https://chat-bot-ai-five-beige.vercel.app",
 ];
 const app = express();
+app.set("trust proxy", 1);
 app.use(cookieParser());
 
 app.use(

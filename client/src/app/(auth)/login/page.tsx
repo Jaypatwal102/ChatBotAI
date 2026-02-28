@@ -15,10 +15,8 @@ export default function Login() {
     e.preventDefault();
     try {
       await login({ email, password });
-      console.log("Login successful");
       router.replace("/dashboard/newchats");
     } catch (err: string | any) {
-      console.log("Login failed", err);
       setError(
         err.message ||
           "Login failed. Please check your credentials and try again.",
