@@ -16,6 +16,7 @@ export function loginUser(data: LoginPayload) {
 
 export function signupUser(data: SignupPayload) {
   return apiClient<AuthSuccessResponse>("/api/auth/register", {
+    credentials: "include",
     method: "POST",
     body: JSON.stringify(data),
   });

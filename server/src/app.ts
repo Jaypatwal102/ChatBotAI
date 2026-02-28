@@ -5,14 +5,22 @@ import logout from "./routes/logout.routes";
 import { errorMiddleware } from "./middlewares/error.middlewares";
 import cookieParser from "cookie-parser";
 import { log } from "node:console";
+const allowedOrigins = [
+  "http://localhost:3000", // Next.js local (IMPORTANT: not 5000)
+  "https://chat-bot-ai-five-beige.vercel.app",
+];
 const app = express();
 app.use(cookieParser());
+
 app.use(
   cors({
-    origin: [
-      "http://localhost:5000", // local dev
-      "https://chat-bot-ai-five-beige.vercel.app", // production frontend
-    ],
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
   }),
 );
