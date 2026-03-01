@@ -42,7 +42,7 @@ export default function Chats() {
 
     setLoading(false);
     increaseChatCount();
-    router.replace(`/dashboard/chats/${newChatId}`);
+    router.push(`/dashboard/chats/${newChatId}`);
   };
 
   return (
